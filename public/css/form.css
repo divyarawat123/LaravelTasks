@@ -1,0 +1,49 @@
+body{
+    font-family: 'Poiret One', cursive;
+    background: #3494E6;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #EC6EAD, #3494E6);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #EC6EAD, #3494E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+  }
+  h4{
+    font-weight: bold;
+    margin-bottom: 2.5rem;
+  }
+  .form-wrapper{
+    background: #fff;
+    border-radius: 5px;
+    padding: 50px;
+  }
+  .form-control, .custom-select{
+    border-radius: 0px;
+      color: #495057;
+      background-color: #f1f1f1;
+      border-color: none;
+     
+  
+  }
+  
+  .form-control:focus {
+      color: #495057;
+      background-color: #ffffff;
+      border:1px solid #b5b6b3;
+      outline: 0;
+      box-shadow: none;
+  
+  }
+  
+  .btn{
+    background: #3494E6;
+    border: #3494E6;
+    padding: 0.6rem 3rem;
+    font-weight: bold;
+  }
+  .btn:hover, .btn:focus, .btn:active, .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
+    background: #3494E6;
+    border: #3494E6;
+    outline: 0;
+  }
+  .profile_image{
+    height: 50px;
+    width: 80px;
+  }
